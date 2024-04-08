@@ -52,3 +52,15 @@ pnpm run dev
 
 # alternativa a postman para visual studio es ThunderClient
 # instalar libreria ThunderClient
+
+# subir al repositorio y luego descargarlo al servidor git init , git clone
+#descargar en el servidor Node js
+curl -fsSL https://deb.nodesource.com/setup_21.x | sudo -E bash
+sudo apt-get install -y nodejs
+
+npm i pnpm --global
+
+# entrar al directorio ApiWhatsapp cd
+# instalar pnpm 
+pnpm i
+
